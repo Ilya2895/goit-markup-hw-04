@@ -437,13 +437,13 @@ address {
 
 /**----------------------------CUSTOMERS---------------------------*/
 
-.сustomers {
+.customers {
   background: #fff;
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-.сustomers-title {
+.customers-title {
   color: var(--navyblue, #2e2f42);
   text-align: center;
   font-size: 36px;
@@ -452,15 +452,15 @@ address {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
-.сustomers-list {
+.customers-list {
   display: flex;
   gap: 24px;
 }
 
-.сustomers-item {
+.customers-item {
   width: calc((100% - 24px * 5) / 6);
 }
-.сustomers-item-link {
+.customers-item-link {
   width: 100%;
   height: 88px;
   display: flex;
@@ -473,11 +473,11 @@ address {
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.сustomers-item-link {
+.customers-item-link {
   cursor: pointer;
 }
 
-.сustomers-item-icon {
+.customers-item-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -487,26 +487,26 @@ customer-item:focus .customer-item-icon {
   fill: #404bbf;
 } */
 
-.сustomers-item {
+.customers-item {
   fill: #8e8f99;
 }
 
-.сustomers-item :hover {
+.customers-item :hover {
   fill: #404bbf;
 }
 
-.сustomers-item :focus {
+.customers-item :focus {
   fill: #404bbf;
 }
 
-.сustomers-item-link:hover,
-.сustomers-item-link:focus {
+.customers-item-link:hover,
+.customers-item-link:focus {
   border-color: #404bbf;
 }
 .Customers-item-icon {
   fill: currentColor;
 }
-.сustomers-list {
+.customers-list {
 }
 
 /**----------------------------CUSTOMERS---------------------------*/
