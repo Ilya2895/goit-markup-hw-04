@@ -135,21 +135,6 @@ img {
 .header-menu-item {
 }
 
-.current {
-  position: relative;
-  color: #404bbf;
-}
-.current:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background: var(--ocean, #404bbf);
-  bottom: -1px;
-}
-
 .header-address-item {
 }
 
@@ -171,6 +156,21 @@ img {
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: var(--ocean, #404bbf);
+}
+
+.current {
+  position: relative;
+  color: #404bbf;
+}
+.current:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--ocean, #404bbf);
+  bottom: -1px;
 }
 
 address {
